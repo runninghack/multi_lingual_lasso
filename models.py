@@ -1,8 +1,5 @@
 import numpy as np
-import pylab as pl
-from sklearn.linear_model import LassoCV, LassoLarsCV, LassoLarsIC
-from sklearn.linear_model import Lasso
-from sklearn import datasets
+from sklearn.linear_model import LassoCV
 import pandas as pd
 from datetime import datetime,timedelta
 import json as js
@@ -17,7 +14,7 @@ def get_keywords(f_key_dict):
         lag = obj['language']
         if lag in languages:
             # word = obj['text']
-            lemma = obj['tokens'][0]['lemma']
+            lemmas = [item['lemma'] for item in obj['tokens']]
             dicts[lag][lemma] = True
     return dicts
 
@@ -27,13 +24,13 @@ def get_features(obj, language, keywords):
     return [int(r) for r in res]
 
 
-def create_X(f, language, dicts):
+def create_X(f, language, dicts, loc):
     keywords = list(dicts[language].keys())
     df_twitter = pd.DataFrame(columns=(keywords + ['date']))
     lines = open(f).readlines()
     for i in range(len(lines)):
         obj = js.loads(lines[i])
-        if obj['embersGeoCode']['country'] == 'Brazil':
+        if obj['embersGeoCode']['country'] == loc[0] and obj['embersGeoCode']['country'] == loc[1]:
             df_twitter.loc[i] = get_features(obj, language, dicts[language]) + \
                                 [datetime.strptime(obj['date'].split("T")[0], '%Y-%m-%d')]
     df_aggregated = df_twitter.groupby("date").agg({key: np.sum for key in keywords})
@@ -45,14 +42,17 @@ def create_X(f, language, dicts):
 
 
 def create_y(file_gsr, min_date, max_date):
-    df_gsr = pd.DataFrame(columns=('date', 'event'))
+    df_gsr = pd.DataFrame(columns=('date', 'event', 'city'))
     lines = open(file_gsr).readlines()
     for i in range(len(lines)):
         obj = js.loads(lines[i])
         if obj['location'][0] == 'Brazil' and obj['eventType'].startswith('01'):
-            df_gsr.loc[i] = [datetime.strptime(obj['eventDate'].split("T")[0], '%Y-%m-%d') + timedelta(days=-1), 1]
+            df_gsr.loc[i] = [datetime.strptime(obj['eventDate'].split("T")[0], '%Y-%m-%d') + timedelta(days=-1),
+                             1,
+                            obj['location'][1]]
 
     df_gsr_selected = df_gsr[(df_gsr.date >= min_date)&(df_gsr.date <= max_date)]
+
     # TODO: seperate the data to city level
     df_gsr_aggregated = df_gsr_selected.groupby("date").agg({'event': lambda x: 1})
     new_index = [min_date + timedelta(days=i) for i in range((max_date - min_date).days + 1)]
@@ -70,8 +70,8 @@ def create_y2(file_gsr, min_date, max_date):
             df_gsr.loc[i] = [datetime.strptime(obj['eventDate'].split("T")[0], '%Y-%m-%d') + timedelta(days=-1), 1]
 
     df_gsr_selected = df_gsr[(df_gsr.date >= min_date)&(df_gsr.date <= max_date)]
-    # TODO: seperate the data to city level
-    df_gsr_aggregated = df_gsr_selected.groupby("date").agg({'event': lambda x: 1})
+    # TODO: seperate the data to city level    df_gsr_aggregated = df_gsr_selected.groupby("date").agg({'event': lambda x: 1})
+
     new_index = [min_date + timedelta(days=i) for i in range((max_date - min_date).days + 1)]
     df_gsr_filled = df_gsr_aggregated.reindex(new_index)
     df_gsr_filled = df_gsr_filled.fillna(0)
@@ -86,8 +86,9 @@ if __name__ == '__main__':
     min_date = datetime(2014, 1, 1)
     max_date = datetime(2014, 12, 31)
 
-    X = create_X(file_twitter, languages[2], get_keywords(file_keys))
     y = create_y(file_gsr, min_date, max_date)
+    X = create_X(file_twitter, languages[2], get_keywords(file_keys))
+
 
     # normalize data as done by Lars to allow for comparison
     X /= np.sqrt(np.sum(X ** 2, axis=0))
