@@ -49,7 +49,7 @@ def create_y(f, date_range):
     for i in range(len(lines)):
         obj = js.loads(lines[i])
         if obj['location'][0] == 'Brazil':
-            df_gsr.loc[i] = [pd.to_datetime(obj['eventDate'].split("T")[0], '%Y-%m-%d') + timedelta(days=-1),
+            df_gsr.loc[i] = [pd.to_datetime(obj['eventDate'].split("T")[0], format='%Y-%m-%d') + timedelta(days=-1),
                              1,
                              obj['location'][1]]
 
@@ -65,7 +65,7 @@ def create_y(f, date_range):
 
 
 if __name__ == '__main__':
-    folder_twitter = "./sample.txt"
+    folder_twitter = "C:/data/enriched_data/2014_clean_merge/"
     file_gsr = "./gsrAll.json"
     file_keys = "./CU_Keywords.2013-01-25T15-36-29"
     languages = ['English', 'Portuguese', 'Spanish']
@@ -74,8 +74,9 @@ if __name__ == '__main__':
     dates = pd.date_range(min_date, max_date)
 
     y = create_y(file_gsr, dates)
-    X = create_X(os.listdir(folder_twitter), get_keywords(file_keys)[languages[2]]['lemmas'],
-                 min_date, max_date, list(y.index.levels[0]))
+    X = create_X([folder_twitter + a for a in os.listdir(folder_twitter)],
+                 get_keywords(file_keys)[languages[2]]['lemmas'],
+                 dates, list(y.index.levels[0]))
 
     # normalize data as done by Lars to allow for comparison
     X /= np.sqrt(np.sum(X ** 2, axis=0))
