@@ -1,10 +1,10 @@
 import numpy as np
-import os
-from sklearn.linear_model import LassoCV
 import pandas as pd
 from datetime import datetime,timedelta
 import json as js
-
+from sklearn import metrics
+from sklearn.linear_model import LogisticRegression
+from sklearn.svm import SVC
 
 def get_keywords(f_key_dict):
     dicts = {}
@@ -15,32 +15,14 @@ def get_keywords(f_key_dict):
         lag = obj['language']
         if lag in languages:
             lemmas = [item['lemma'] for item in obj['tokens']]
-            dicts[lag]['lemmas'].append(lemmas)
+            lemmas = filter(lambda x: len(x) > 1, lemmas)
+            if len(lemmas) == 1:
+                dicts[lag][lemmas[0]] = 0
+            elif len(lemmas) == 2:
+                dicts[lag]["_".join(lemmas)] = 0
+            elif len(lemmas) == 3:
+                dicts[lag]["_".join(lemmas)] = 0
     return dicts
-
-
-def count_keywords(obj, keywords):
-    twitter_lemmas = [item['lemma'] for item in obj['BasisEnrichment']['tokens']]
-    res = [set(keyword_lemmas) < set(twitter_lemmas) for keyword_lemmas in keywords]
-    return [int(r) for r in res]
-
-
-def create_X(f_list, keywords, date_range, cities):
-    key_index = [str(a) for a in range(len(keywords))]
-    df_twitter = pd.DataFrame(columns=(key_index + ['date', 'city']))
-    for f in f_list:
-        lines = open(f).readlines()
-        for i in range(len(lines)):
-            obj = js.loads(lines[i])
-            if obj['embersGeoCode']['country'] == 'Brazil' and obj['embersGeoCode']['city'] in cities:
-                df_twitter.loc[i] = count_keywords(obj, keywords) \
-                                    + [datetime.strptime(obj['date'].split("T")[0], '%Y-%m-%d'),
-                                     obj['embersGeoCode']['city']]
-    df_gsr_selected = df_twitter[(df_twitter.date >= min_date) & (df_twitter.date <= max_date)]
-    df_grouped = df_gsr_selected.groupby(['city', "date"]).agg({key: np.sum for key in key_index})
-    new_index = pd.MultiIndex.from_product([cities, date_range], names=['city', 'date'])
-    df_final = df_grouped.reindex(new_index, fill_value=0)
-    return df_final
 
 
 def create_y(f, date_range):
@@ -65,27 +47,32 @@ def create_y(f, date_range):
 
 
 if __name__ == '__main__':
-    folder_twitter = "C:/data/enriched_data/2014_clean_merge/"
     file_gsr = "./gsrAll.json"
-    file_keys = "./CU_Keywords.2013-01-25T15-36-29"
     languages = ['English', 'Portuguese', 'Spanish']
     min_date = datetime(2014, 1, 1)
     max_date = datetime(2014, 12, 31)
     dates = pd.date_range(min_date, max_date)
-
     y = create_y(file_gsr, dates)
-    X = create_X([folder_twitter + a for a in os.listdir(folder_twitter)],
-                 get_keywords(file_keys)[languages[2]]['lemmas'],
-                 dates, list(y.index.levels[0]))
 
-    # normalize data as done by Lars to allow for comparison
-    X /= np.sqrt(np.sum(X ** 2, axis=0))
+    file_keys = "./CU_Keywords.2013-01-25T15-36-29"
+    keywords_dict = get_keywords(file_keys)[languages[1]]
+    keywords = keywords_dict.keys()
+    col_names = keywords + ['date', 'city']
+    types = {key: 'int' for key in keywords}
+    types['date'] = 'str'
+    types['city'] = 'str'
+    X = pd.read_csv('features_Portuguese.csv', header=None, names=col_names)
+    X = X.groupby(['city', 'date']).agg({key: np.sum for key in keywords})
 
-    feature_cols = list(X.columns.values)
-    alpha = 0.1
+    models = [LogisticRegression(penalty='l1', class_weight='balanced'),
+              SVC(class_weight="balanced"),
+              ]
 
-    # from sklearn.cross_validation import train_test_split
-    # X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=1)
-
-    model = LassoCV(cv=20).fit(X, y)
-
+    for m in models:
+        m.fit(X, y.event)
+        expected = y.event
+        predicted = m.predict(X)
+        print(metrics.classification_report(expected, predicted))
+        print(metrics.confusion_matrix(expected, predicted))
+        fpr, tpr, thresholds = metrics.roc_curve(expected, predicted, pos_label=1)
+        print "AOC: ", str(metrics.auc(fpr, tpr))
