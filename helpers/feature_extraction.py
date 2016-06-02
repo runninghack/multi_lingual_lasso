@@ -1,7 +1,4 @@
-import numpy as np
 import os
-import pandas as pd
-from datetime import datetime,timedelta
 import json as js
 
 
@@ -36,7 +33,7 @@ def feature_extraction(language):
               u'Rio Grande do Sul', u'Rio de Janeiro', u'Rond\xf4nia', u'Santa Catarina', u'Sergipe', u'S\xe3o Paulo',
               u'Tocantins']
 
-    fout = open("./features_"+ language + ".csv", 'w')
+    fout = open("./features_" + language + ".csv", 'w')
     for f in os.listdir(folder_twitter):
         f_path = folder_twitter + f
 
