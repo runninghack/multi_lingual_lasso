@@ -2,67 +2,89 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c4af454-7b2e-4b43-9303-7e39dd11bf3b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/dist/misvm-1.0-py2.7.egg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/helpers/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/helpers/feature_extraction2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/helpers/split_by_lang.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/helpers/transformer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/build/lib/misvm/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/build/lib/misvm/cccp.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/build/lib/misvm/kernel.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/build/lib/misvm/mica.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/build/lib/misvm/misssvm.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/build/lib/misvm/misvm.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/build/lib/misvm/nsk.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/build/lib/misvm/quadprog.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/build/lib/misvm/sbmil.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/build/lib/misvm/sil.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/build/lib/misvm/smil.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/build/lib/misvm/stk.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/build/lib/misvm/stmil.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/build/lib/misvm/svm.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/build/lib/misvm/util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/example/example.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/example/misvmio.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/example/musk1.data" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/example/musk1.names" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/misvm.egg-info/PKG-INFO" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/misvm.egg-info/SOURCES.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/misvm.egg-info/dependency_links.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/misvm.egg-info/requires.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/misvm.egg-info/top_level.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/misvm/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/misvm/cccp.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/misvm/kernel.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/misvm/mica.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/misvm/misssvm.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/misvm/misvm.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/misvm/nsk.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/misvm/quadprog.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/misvm/sbmil.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/misvm/sil.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/misvm/smil.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/misvm/stk.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/misvm/stmil.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/misvm/svm.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/misvm/util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misvm/setup.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/helpers/features.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/helpers/features_Spanish - Copy.csv" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logreg.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mil.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/ipython_notebook_log-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpers/bk/features.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpers/bk/features_English.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpers/bk/features_Portuguese.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpers/bk/features_Spanish - Copy.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/build/lib/misvm/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/build/lib/misvm/cccp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/build/lib/misvm/kernel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/build/lib/misvm/mica.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/build/lib/misvm/misssvm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/build/lib/misvm/misvm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/build/lib/misvm/nsk.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/build/lib/misvm/quadprog.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/build/lib/misvm/sbmil.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/build/lib/misvm/sil.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/build/lib/misvm/smil.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/build/lib/misvm/stk.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/build/lib/misvm/stmil.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/build/lib/misvm/svm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/build/lib/misvm/util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/dist/misvm-1.0-py2.7.egg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/example/example.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/example/misvmio.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/example/musk1.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/example/musk1.names" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/misvm.egg-info/PKG-INFO" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/misvm.egg-info/SOURCES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/misvm.egg-info/dependency_links.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/misvm.egg-info/requires.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/misvm.egg-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/misvm/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/misvm/cccp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/misvm/kernel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/misvm/mica.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/misvm/misssvm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/misvm/misvm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/misvm/nsk.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/misvm/quadprog.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/misvm/sbmil.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/misvm/sil.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/misvm/smil.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/misvm/stk.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/misvm/stmil.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/misvm/svm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/misvm/util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misvm/setup.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CU_Keywords.2013-01-25T15-36-29" afterPath="$PROJECT_DIR$/data/raw/CU_Keywords.2013-01-25T15-36-29" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/features_English.csv" afterPath="$PROJECT_DIR$/data/raw/features_English.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/features_Portuguese.csv" afterPath="$PROJECT_DIR$/data/raw/features_Portuguese.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/features_Spanish.csv" afterPath="$PROJECT_DIR$/data/raw/features_Spanish.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gsrAll.json" afterPath="$PROJECT_DIR$/data/raw/gsrAll.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ipython_notebook_log.ipynb" afterPath="$PROJECT_DIR$/bk/ipython_notebook_log.ipynb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/result.aux" afterPath="$PROJECT_DIR$/data/res/result.aux" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/result.log" afterPath="$PROJECT_DIR$/data/res/result.log" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/result.pdf" afterPath="$PROJECT_DIR$/data/res/result.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/result.tex" afterPath="$PROJECT_DIR$/data/res/result.tex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/multi_lingual_lasso.iml" afterPath="$PROJECT_DIR$/.idea/multi_lingual_lasso.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/ipython_notebook_log-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/ipython_notebook_log-checkpoint.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features_English.csv" afterPath="$PROJECT_DIR$/features_English.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features_Portuguese.csv" afterPath="$PROJECT_DIR$/features_Portuguese.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features_Spanish.csv" afterPath="$PROJECT_DIR$/features_Spanish.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bk/features_English.csv" afterPath="$PROJECT_DIR$/bk/features_English.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bk/features_Portuguese.csv" afterPath="$PROJECT_DIR$/bk/features_Portuguese.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bk/features_Spanish.csv" afterPath="$PROJECT_DIR$/bk/features_Spanish.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helpers/feature_extraction.py" afterPath="$PROJECT_DIR$/helpers/feature_extraction.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helpers/feature_extraction2.py" afterPath="$PROJECT_DIR$/helpers/feature_extraction2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helpers/features_English.csv" afterPath="$PROJECT_DIR$/helpers/features_English.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helpers/features_Portuguese.csv" afterPath="$PROJECT_DIR$/helpers/features_Portuguese.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ipython_notebook_log.ipynb" afterPath="$PROJECT_DIR$/ipython_notebook_log.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helpers/features_Spanish.csv" afterPath="$PROJECT_DIR$/helpers/features_Spanish.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helpers/merge_twitter_data.py" afterPath="$PROJECT_DIR$/helpers/merge_twitter_data.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helpers/simplify_raw.py" afterPath="$PROJECT_DIR$/helpers/simplify_raw.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helpers/split_by_lang.py" afterPath="$PROJECT_DIR$/helpers/split_by_lang.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helpers/transformer.py" afterPath="$PROJECT_DIR$/helpers/transformer.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models.py" afterPath="$PROJECT_DIR$/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample.txt" afterPath="$PROJECT_DIR$/sample.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pip-delete-this-directory.txt" afterPath="$PROJECT_DIR$/src/pip-delete-this-directory.txt" />
     </list>
     <ignored path="multi_lingual_lasso.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,7 +96,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -84,23 +105,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="example.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/misvm/example/example.py">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <state relative-caret-position="-1676">
+              <caret line="58" column="109" lean-forward="true" selection-start-line="58" selection-start-column="109" selection-end-line="58" selection-end-column="109" />
               <folding>
-                <element signature="e#22#40#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="transformer.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/helpers/transformer.py">
+      <file leaf-file-name="mil.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mil.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            <state relative-caret-position="360">
+              <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logreg.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logreg.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sample.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sample.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -115,8 +160,18 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>foo.csv</find>
+      <find>logreg</find>
+      <find>trainLogRegres</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -128,18 +183,20 @@
         <option value="$PROJECT_DIR$/helpers/split_by_lang.py" />
         <option value="$PROJECT_DIR$/helpers/feature_extraction.py" />
         <option value="$PROJECT_DIR$/helpers/feature_extraction2.py" />
-        <option value="$PROJECT_DIR$/models.py" />
         <option value="$PROJECT_DIR$/misvm/example/misvmio.py" />
         <option value="$PROJECT_DIR$/misvm/example/example.py" />
         <option value="$PROJECT_DIR$/helpers/transformer.py" />
+        <option value="$PROJECT_DIR$/ipython_notebook_log.ipynb" />
+        <option value="$PROJECT_DIR$/logreg.py" />
+        <option value="$PROJECT_DIR$/models.py" />
+        <option value="$PROJECT_DIR$/mil.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1096" />
-    <option name="height" value="1896" />
+    <option name="y" value="30" />
+    <option name="width" value="1697" />
+    <option name="height" value="932" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -149,26 +206,19 @@
             <id />
           </State>
           <State>
-            <id>RELAX NG</id>
+            <id>Python</id>
           </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>Buildout</id>
+            <id>PyPep8Inspection</id>
           </State>
         </selected-state>
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -185,6 +235,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -193,40 +244,18 @@
               <option name="myItemId" value="multi_lingual_lasso" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="multi_lingual_lasso" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="multi_lingual_lasso" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="multi_lingual_lasso" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="multi_lingual_lasso" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_25d850739bc178b2eb13c3e2a9faafea2f9143c0/cmd/git.exe" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="238" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="238" />
@@ -245,32 +274,19 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Ramiel\Documents\GitHub\multi_lingual_lasso\helpers" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ramiel\Documents\GitHub\multi_lingual_lasso" />
       <recent name="C:\Users\Ramiel\Documents\GitHub\multi_lingual_lasso\helpers" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/res" />
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/bk" />
+      <recent name="$PROJECT_DIR$/data/raw" />
+      <recent name="C:\Users\Ramiel\Documents\GitHub\multi_lingual_lasso\helpers" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.transformer">
-    <configuration default="false" name="feature_extraction2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/helpers" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="multi_lingual_lasso" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/helpers/feature_extraction2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.models">
     <configuration default="false" name="example" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -339,15 +355,21 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+    <configuration default="false" name="models" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="INTERPRETER_PATH" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="multi_lingual_lasso" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models.py" />
       <option name="PARAMETERS" value="" />
-      <module name="" />
-      <envs />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -485,19 +507,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.feature_extraction2" />
-      <item index="1" class="java.lang.String" itemvalue="Python.example" />
-      <item index="2" class="java.lang.String" itemvalue="Python.setup" />
-      <item index="3" class="java.lang.String" itemvalue="Python.setup (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.transformer" />
+      <item index="0" class="java.lang.String" itemvalue="Python.example" />
+      <item index="1" class="java.lang.String" itemvalue="Python.setup" />
+      <item index="2" class="java.lang.String" itemvalue="Python.setup (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.transformer" />
+      <item index="4" class="java.lang.String" itemvalue="Python.models" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.transformer" />
-        <item index="1" class="java.lang.String" itemvalue="Python.setup (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.example" />
-        <item index="3" class="java.lang.String" itemvalue="Python.setup" />
-        <item index="4" class="java.lang.String" itemvalue="Python.feature_extraction2" />
+        <item index="0" class="java.lang.String" itemvalue="Python.models" />
+        <item index="1" class="java.lang.String" itemvalue="Python.transformer" />
+        <item index="2" class="java.lang.String" itemvalue="Python.setup (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.example" />
+        <item index="4" class="java.lang.String" itemvalue="Python.setup" />
       </list>
     </recent_temporary>
   </component>
@@ -517,27 +539,36 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1096" height="1896" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="30" width="1697" height="932" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35349718" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11608721" sideWeight="0.7312312" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938856" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32704404" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29367632" sideWeight="0.49583334" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969843" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1765625" sideWeight="0.26876876" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24758843" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2987988" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938856" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39871383" sideWeight="0.65989584" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.349944" sideWeight="0.65989584" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -553,319 +584,260 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="19" />
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="50" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/helpers/split_by_lang.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/feature_extraction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/feature_extraction2.py">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/split_by_lang.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="56" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="77" column="23" lean-forward="false" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/helpers/feature_extraction.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/helpers/feature_extraction.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="77" column="23" lean-forward="false" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/helpers/feature_extraction.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/feature_extraction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
+          <caret line="77" column="23" lean-forward="false" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/helpers/feature_extraction.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/helpers/simplify_raw.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/simplify_raw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="9" />
+          <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/helpers/merge_twitter_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Anaconda2/Lib/site-packages/sklearn/metrics/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Anaconda2/Lib/site-packages/sklearn/metrics/__init__.py" />
     <entry file="file://$PROJECT_DIR$/helpers/features_English.csv">
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/feature_extraction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/split_by_lang.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/feature_extraction2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="76" column="37" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="141" column="36" selection-start-line="141" selection-start-column="36" selection-end-line="141" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/misvm/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Anaconda2/Lib/_abcoll.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="597" column="8" selection-start-line="597" selection-start-column="8" selection-end-line="597" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/misvm/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="544">
-            <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features_English.csv">
+    <entry file="file://$PROJECT_DIR$/misvm/setup.py" />
+    <entry file="file://C:/Anaconda2/Lib/_abcoll.py" />
+    <entry file="file://$PROJECT_DIR$/misvm/README.md" />
+    <entry file="file://$PROJECT_DIR$/data/raw/features_English.csv">
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/misvm/example/musk1.names">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/misvm/example/musk1.data">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/misvm/example/misvmio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5372">
-          <caret line="321" column="20" selection-start-line="321" selection-start-column="20" selection-end-line="321" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/misvm/example/musk1.names" />
+    <entry file="file://$PROJECT_DIR$/misvm/example/musk1.data" />
+    <entry file="file://$PROJECT_DIR$/misvm/example/misvmio.py" />
     <entry file="file://$PROJECT_DIR$/helpers/c45_parser-master/setup.py" />
     <entry file="file://$PROJECT_DIR$/helpers/c45_parser-master/__init__.py" />
     <entry file="file://$PROJECT_DIR$/helpers/c45_parser-master/bin/c45_to_matlab" />
-    <entry file="jar://C:/Anaconda2/Lib/site-packages/setuptools-20.7.0-py2.7.egg!/pkg_resources/extern/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Anaconda2/Lib/site-packages/setuptools-20.7.0-py2.7.egg!/pkg_resources/extern/__init__.py" />
     <entry file="file://$PROJECT_DIR$/helpers/c45_parser-master/README.md" />
-    <entry file="file://$PROJECT_DIR$/misvm/example/example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-          <folding>
-            <element signature="e#22#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/helpers/c45_parser-master/example.data" />
     <entry file="file://$PROJECT_DIR$/helpers/c45_parser-master/example.names" />
     <entry file="file://$PROJECT_DIR$/helpers/c45_parser-master/c45_parser/test_mldata.py" />
     <entry file="file://$PROJECT_DIR$/helpers/c45_parser-master/c45_parser/__init__.py" />
     <entry file="file://$PROJECT_DIR$/helpers/c45_parser-master/c45_parser/mldata.py" />
+    <entry file="file://$PROJECT_DIR$/misvm/example/example.py" />
+    <entry file="file://$PROJECT_DIR$/helpers/split_by_lang.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/simplify_raw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/raw/gsrAll.json">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bk/ipython_notebook_log.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="189" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/feature_extraction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/feature_extraction2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="55" column="63" lean-forward="false" selection-start-line="55" selection-start-column="63" selection-end-line="55" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/helpers/transformer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        <state relative-caret-position="60">
+          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/numpy/matrixlib/defmatrix.py" />
+    <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/scipy/optimize/tnc.py" />
+    <entry file="file://$PROJECT_DIR$/data/res/res.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/res/result.tex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/foo.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logreg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1676">
+          <caret line="58" column="109" lean-forward="true" selection-start-line="58" selection-start-column="109" selection-end-line="58" selection-end-column="109" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
